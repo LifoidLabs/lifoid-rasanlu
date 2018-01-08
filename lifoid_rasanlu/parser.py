@@ -1,6 +1,6 @@
 # -*- coding: utf8 -*-
 """
-Rasa_nlu parserifoid
+Rasa_nlu parser
 Author: Romary Dupuis <romary@me.com>
 """
 import json
@@ -10,6 +10,9 @@ from lifoid.config import settings
 
 
 class RasaNluParser(Parser):
+    """
+    Parser implementation with Rasa_nlu
+    """
     def parse(self, message, _context):
         resp = post(settings.rasa_nlu.url, json={'q': message.text})
         output = None

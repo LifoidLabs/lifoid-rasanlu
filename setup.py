@@ -40,9 +40,7 @@ URL = 'https://github.com/romaryd/lifoid-rasanlu'
 LICENSE = text_of('LICENSE')
 PACKAGES = find_packages(exclude=['tests', 'tests.*'])
 
-INSTALL_REQUIRES = ['apiai==1.2.3',
-                    'python-awesome-decorators',
-                    'python-logging-mixin']
+INSTALL_REQUIRES = ['requests']
 TEST_SUITE = 'tests'
 TESTS_REQUIRE = ['pytest']
 
