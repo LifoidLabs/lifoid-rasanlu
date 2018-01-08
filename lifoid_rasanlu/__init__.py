@@ -7,7 +7,7 @@ from lifoid import signals
 from .config import RasanluConfiguration
 from .parser import RasaNluParser
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 
 def get_parser(app):
