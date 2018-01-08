@@ -40,7 +40,7 @@ URL = 'https://github.com/romaryd/lifoid-rasanlu'
 LICENSE = text_of('LICENSE')
 PACKAGES = find_packages(exclude=['tests', 'tests.*'])
 
-INSTALL_REQUIRES = []
+INSTALL_REQUIRES = ['requests']
 TEST_SUITE = 'tests'
 TESTS_REQUIRE = ['pytest']
 
